@@ -1,0 +1,96 @@
+
+
+.footer{
+    padding: 20px 20px;
+    padding-left: 40px;
+    background: #000;
+    color: #fff;
+} 
+
+
+footer hr, h4{
+    color: gray;
+}
+
+footer a:hover{
+    text-shadow: 0px 0px 7px #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+  }
+  
+  .footer-1 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+
+  
+
+  .btn1, .btn2{
+      border: 1px solid white;
+      border-radius: 10px;
+      
+  }
+
+  .btn1{
+      margin-bottom: 25px;
+
+  }
+
+  .footer-2{
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  .footer-2-in {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+
+  .footer-3{
+      display: flex;
+      /* background-color: red; */
+      justify-content: space-between;
+     
+
+  }
+
+  .footer-3 p{
+      font-size: 30px;
+  }
+
+  .footer-3 .swiggy-logo{
+      height: 65%;
+      /* width: 90%; */
+      margin-top: 15px;
+  }
+
+  .footer-3 .logos{
+      display: flex;
+      margin-top: 30px;
+  }
+
+  .footer a:hover{
+    color: rgb(241, 239, 234);
+  }
+
+  @media screen and (max-width: 700px) {
+      .footer-3{
+          
+          flex-direction: column;
+          justify-content: center;
+      }
+  }
+  @media screen and (max-width: 580px) {
+    .footer-1{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+}

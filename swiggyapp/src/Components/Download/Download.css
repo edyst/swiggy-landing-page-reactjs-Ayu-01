@@ -1,0 +1,97 @@
+.Download {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 40px 0px 40px;
+}
+
+.left {
+  margin: auto;
+} 
+
+.btn1{
+  padding: 5px;
+}
+
+.btn2{
+  padding: 5px;
+}
+
+
+
+
+
+.Download .heading {
+  
+  
+
+  font-size: 40px;
+  font-weight: 600;
+  width: 300px;
+  line-height: 1;
+  letter-spacing: -.45px;
+}
+
+.Download .content {
+ 
+
+  font-size: 20px;
+  width: 400px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #7e808c;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1250px) {
+  .Download {
+    flex-direction: column;
+  }
+  .right{
+    display: flex;
+    justify-content: center;
+  }
+  .left{
+    display: flex;
+    margin-top: 10px; 
+  }
+ 
+  .left >*{
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Download {
+    flex-direction: column;
+  
+    justify-content: center;
+  }
+  .right{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  
+}
+
+@media screen and (max-width: 520px) {
+  .right img{
+    height: 200px;
+  }
+  .btn-img{
+    display: flex;
+    flex-direction: column;
+  }
+}
